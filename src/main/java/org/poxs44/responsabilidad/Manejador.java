@@ -10,6 +10,6 @@ public abstract class Manejador {
     public Manejador getSucesor() {
         return sucesor;
     }
-    public abstract double calculaCosteEnvio(Paquete p);
+    public abstract void calculaCosteEnvio(Paquete p);
 }
 
