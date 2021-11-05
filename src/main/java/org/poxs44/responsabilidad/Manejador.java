@@ -1,5 +1,7 @@
 package org.poxs44.responsabilidad;
 
+
+
 public abstract class Manejador {
     private Manejador sucesor;
     public void setSucesor(Manejador sucesor) {
