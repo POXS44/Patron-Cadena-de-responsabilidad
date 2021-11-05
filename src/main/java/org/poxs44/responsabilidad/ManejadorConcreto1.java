@@ -1,8 +1,8 @@
 package org.poxs44.responsabilidad;
 
 public class ManejadorConcreto1 extends Manejador {
-    public void calculaCosteEnvio(Paquete p) {
-        if (p.getDestino().equals("Madrid Capital")) {
+    public double calculaCosteEnvio(Paquete p) {
+        if (p.getDestino().equals("Siuna")) {
             return p.getPeso() * 1.5 + 3;
         } else if (super.getSucesor() != null) {
             return getSucesor().calculaCosteEnvio(p);
